@@ -1,1 +1,1 @@
-Simple app which gives user ability to create a list of notes, with each note having a title and body of text.
+Simple app which gives user ability to create a list of notes, with each note having a title and body of text. Notes will be displayed in a list, starting with the forst note taken. Each note has a displayed date and time of creation.
