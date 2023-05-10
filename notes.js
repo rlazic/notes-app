@@ -12,10 +12,16 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
+const now = new Date();  
+const currentHours = now.getHours();
+const currentMinutes = now.getMinutes();
+const currentDate = now.toLocaleDateString();
+
   const note = document.createElement('div');
   note.classList.add('note');
   const noteHTML = `
-    <h2>${title}</h2>
+    <h2>${title}</h2>  ${currentDate} ${currentHours}:${currentMinutes} 
+    <hr>
     <p>${text}</p>
   `;
   note.innerHTML = noteHTML;
@@ -24,3 +30,4 @@ form.addEventListener('submit', (e) => {
   document.querySelector('#note-title').value = '';
   document.querySelector('#note-text').value = '';
 });
+
