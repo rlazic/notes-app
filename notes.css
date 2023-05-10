@@ -1,12 +1,12 @@
-
 .container {
+  font-family: Arial;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-weight: normal;
 }
 
@@ -16,12 +16,14 @@ form {
 }
 
 input[type="text"], textarea {
+  font-family: Arial;
   padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 button {
+  font-family: Arial;
   padding: 10px;
   background-color: #4CAF50;
   color: #fff;
@@ -38,14 +40,16 @@ button:hover {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .note h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 20px;
-  margin-top: 0;
 }
 
 .note p {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 16px;
 }
