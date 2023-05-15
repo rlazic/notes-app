@@ -1,4 +1,4 @@
-/*records a note with title andtext body*/
+//Records a note with title andtext body
 const form = document.querySelector('#note-form');
 const noteList = document.querySelector('#note-list');
 
@@ -13,7 +13,7 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-/*records time of note creation*/
+//Records time of note creation
 const now = new Date();  
 const currentHours = now.getHours();
 const currentMinutes = now.getMinutes();
