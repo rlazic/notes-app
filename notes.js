@@ -32,4 +32,3 @@ const currentDate = now.toLocaleDateString();
   document.querySelector('#note-title').value = '';
   document.querySelector('#note-text').value = '';
 });
-
